@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background: url('images/FFCC00.jpg') no-repeat center center/cover;
+    height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.quality-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.quality-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.quality-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: black;
+    padding:10px 500px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.hottest-headphones {
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+
+.hottest-headphones h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.headphones-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.headphone-item {
+    background-color: #dfc454;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 300px;
+}
+
+.headphone-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.headphone-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.headphone-item p {
+    font-size: 14px;
+    line-height: 1.5;
+}
