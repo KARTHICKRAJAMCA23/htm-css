@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.container {
+    width: 400px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.login, .signup {
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slider {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.form-section {
+    display: flex;
+    width: 200%;
+    transition: all 0.5s ease;
+}
+
+.login-box, .signup-box {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ele {
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+}
+
+.clkbtn {
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+/* For Responsiveness of the page */
+@media screen and (max-width: 650px) {
+    .container {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .btn {
+        margin-bottom: 20px;
+    }
+
+    .login, .signup {
+        font-size: 16px;
+    }
+
+    .ele, .clkbtn {
+        height: 35px;
+    }
+}
